@@ -1,0 +1,24 @@
+<router-outlet></router-outlet>
+<div class="w3-display-middle">
+  <mat-card class="card2 "><br>
+    <h2 style="text-align:center;">ส่งสินค้าออนไลน์</h2><br>
+    <div style="text-align:center;"></div><br>
+    <h4 style="text-align:center;">กรุณาเข้าสู่ระบบ</h4>
+
+
+    <div style="text-align:center;">
+      <mat-form-field class="example-full-width">
+        <input [(ngModel)]="user" matInput placeholder="Username">
+      </mat-form-field><br>
+
+      <mat-form-field class="example-full-width">
+        <input [(ngModel)]="password" matInput type="password" placeholder="Password">
+      </mat-form-field> <br><br>
+
+      <button mat-raised-button color="primary" (click)="login()">เข้าสู่ระบบ</button><br><br>
+      <button mat-raised-button color="primary" [routerLink]="['/informationemp']">ลงทะเบียนพนักงาน</button><br><br>
+
+    </div>
+
+  </mat-card>
+</div>
