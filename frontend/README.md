@@ -1,6 +1,4 @@
-# เริ่มต้นใช้งาน
-
-ใช้คำสั่ง npm install
+﻿ใช้คำสั่ง npm install
 
 # Client
 
